@@ -822,134 +822,232 @@
         <header>
           <h2 class="h2 article-title">Portfolio</h2>
         </header>
-      
+
         <section class="projects">
-      
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine/Deep Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Analysis</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Image Processing/Computer Vision</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine/Deep Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Analysis</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Image Processing/Computer Vision</button>
+              </li>
+
+            </ul>
+
+          </div>
+
           <ul class="project-list">
-      
-            <li class="project-item" data-category="Machine/Deep Learning">
+
+            <li class="project-item  active" data-filter-item data-category="Machine/Deep Learning">
               <a href="#">
+
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
+
                   <img src="./assets/images/chatbot.jpg" alt="AWS Chatbot" loading="lazy">
                 </figure>
+
                 <h3 class="project-title">AWS Chatbot</h3>
+
                 <p class="project-category">Machine/Deep Learning</p>
+
               </a>
             </li>
-      
-            <li class="project-item" data-category="Machine/Deep Learning">
+
+            <li class="project-item  active" data-filter-item data-category="Machine/Deep Learning">
               <a href="#">
+
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="./assets/images/computer_vision_2.jpg" alt="Self-supervised Image Classification" loading="lazy">
+
+                  <img src="./assets/images/computer_vision_2.jpg" alt="orizon" loading="lazy">
                 </figure>
+
                 <h3 class="project-title">Self-supervised Image Classification</h3>
+
                 <p class="project-category">Machine/Deep Learning</p>
+
               </a>
             </li>
-      
-            <li class="project-item" data-category="Machine/Deep Learning">
+
+            <li class="project-item  active" data-filter-item data-category="Machine/Deep Learning">
               <a href="#">
+
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="./assets/images/stress.jpg" alt="Real-time Stress Monitoring System" loading="lazy">
+
+                  <img src="./assets/images/stress.jpg" alt="fundo" loading="lazy">
                 </figure>
+
                 <h3 class="project-title">Real-time Stress Monitoring System</h3>
+
                 <p class="project-category">Machine/Deep Learning</p>
+
               </a>
             </li>
-      
-            <li class="project-item" data-category="Machine/Deep Learning">
+
+            <li class="project-item  active" data-filter-item data-category="Machine/Deep Learning">
               <a href="#">
+
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
+
                   <img src="./assets/images/terrain.jpg" alt="Time-series Terrain Detection" loading="lazy">
                 </figure>
+
                 <h3 class="project-title">Time-series Terrain Detection</h3>
+
                 <p class="project-category">Machine/Deep Learning</p>
+
               </a>
             </li>
-      
-            <li class="project-item" data-category="Machine/Deep Learning">
+
+            <li class="project-item  active" data-filter-item data-category="Machine/Deep Learning">
               <a href="#">
+
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
+
                   <img src="./assets/images/neonatal.jpg" alt="Neonatal Seizure Detection" loading="lazy">
                 </figure>
+
                 <h3 class="project-title">Neonatal Seizure Detection</h3>
+
                 <p class="project-category">Machine/Deep Learning</p>
+
               </a>
             </li>
-      
-            <li class="project-item" data-category="Machine/Deep Learning">
+
+            <li class="project-item  active" data-filter-item data-category="Machine/Deep Learning">
               <a href="#">
+
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
+
                   <img src="./assets/images/flight.jpg" alt="Flight Delay Prediction" loading="lazy">
                 </figure>
+
                 <h3 class="project-title">Flight Delay Prediction</h3>
+
                 <p class="project-category">Machine/Deep Learning</p>
+
               </a>
             </li>
-      
-            <li class="project-item" data-category="Data Analysis">
+
+            <li class="project-item  active" data-filter-item data-category="Data Analysis">
               <a href="#">
+
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
+
                   <img src="./assets/images/hypothesis.jpg" alt="Hypothesis Testing" loading="lazy">
                 </figure>
+
                 <h3 class="project-title">Hypothesis Testing</h3>
+
                 <p class="project-category">Data Analysis</p>
+
               </a>
             </li>
-      
-            <li class="project-item" data-category="Data Analysis">
+
+            <li class="project-item  active" data-filter-item data-category="Data Analysis">
               <a href="#">
+
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
+
                   <img src="./assets/images/recommendation.jpg" alt="PySpark Recommendation System" loading="lazy">
                 </figure>
+
                 <h3 class="project-title">PySpark Recommendation System</h3>
+
                 <p class="project-category">Data Analysis</p>
+
               </a>
             </li>
-      
-            <li class="project-item" data-category="Data Analysis">
+
+            <li class="project-item  active" data-filter-item data-category="Data Analysis">
               <a href="#">
+
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
+
                   <img src="./assets/images/pysigpro.jpg" alt="PySigPro" loading="lazy">
                 </figure>
+
                 <h3 class="project-title">PySigPro</h3>
+
                 <p class="project-category">Data Analysis</p>
+
               </a>
             </li>
-      
+
           </ul>
-      
+
         </section>
-      
+
       </article>
-      
 
 
 
