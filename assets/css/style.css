@@ -886,6 +886,7 @@ main {
   background: var(--eerie-black-2);
   color: var(--light-gray);
   display: flex;
+  flex-wrap: wrap; 
   justify-content: space-between;
   align-items: center;
   width: 100%;
